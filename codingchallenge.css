@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box{
+  backface-visibility:visible;
+  background-color: rgba(10,10,10,0.7);
+  width:  1000px;
+  height: 1000px;
+  margin-top: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  border-radius: 10px;
+
+}
+
+.logo{
+  width: 300px;
+  padding-top: 100px;
+}
+
+h1{
+  color: green;
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+
+}
+
+.Bottoni{
+  text-align: center;
+  background-color: rgba(102,205, 0,100);
+  background-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.monopattinobox{
+  padding-top: 20px;
+}
+span{
+  align-content: stretch;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 300px;
+
+}
+.boxcarica{
+  background-color: orange;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  position:relative;bottom: 15px;
+}
+.boxcarica2{
+  background-color: rgba(102,205, 0,100);
+  width: 600px;
+  height: 30px;
+  border-radius: 5px;
+  position:relative;bottom: 15px;
+
+}
+.boxcarica3{
+  background-color: red;
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  position:relative;bottom: 15px;
+}
